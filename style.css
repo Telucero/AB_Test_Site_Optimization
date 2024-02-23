@@ -9,7 +9,7 @@ header {
     color: #fff;
     padding: 10px 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1.0); /* Adding shadow effect */
 }
 
 nav ul {
@@ -41,7 +41,7 @@ nav ul li a:hover {
 
 section {
     margin-bottom: 40px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding shadow effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1.0); /* Adding shadow effect */
     padding: 20px;
 }
 
