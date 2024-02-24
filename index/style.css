@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.title {
+    color: #fff; /* Set the desired color */
+}
+
 header {
     background-color: #333;
     color: #fff;
