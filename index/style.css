@@ -66,6 +66,7 @@ footer {
     z-index: 1;
 }
 
+
 .swiper-container {
     position: relative;
     z-index: 1; /* Lower z-index to keep it behind the footer */
@@ -128,5 +129,8 @@ footer {
 
 /* Add margin to the bottom of the section to prevent overlap with footer */
 section {
-    margin-bottom: 80px; /* Adjust this value as needed */
+    margin-bottom: 50px; /* Adjust this value as needed */
+}
+#Publication_section{
+    margin-bottom: 30px;
 }
