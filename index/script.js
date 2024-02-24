@@ -12,17 +12,17 @@ var swiper = new Swiper('.swiper-container', {
 var projects = [
     {
         name: 'Project 1',
-        imageUrl: '../IMG_0730.jpeg',
+        imageUrl: 'images/IMG_0730.jpeg',
         githubUrl: 'https://github.com/telucero/Artist_Rec'
     },
     {
         name: 'Project 2',
-        imageUrl: '../AM_prior_1.jpeg',
+        imageUrl: 'images/AM_prior_1.jpeg',
         githubUrl: 'https://github.com/user/Ensemble_Analysis'
     },
     {
         name: 'Project 3',
-        imageUrl: '../AM_prior_R1.jpeg',
+        imageUrl: 'images/AM_prior_R1.jpeg',
         githubUrl: 'https://github.com/user/ETH_Analysis'
     }
     // Add more projects as needed
