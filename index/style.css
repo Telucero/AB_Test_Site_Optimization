@@ -74,10 +74,11 @@ footer {
 }
 
 .swiper-slide img {
-    max-width: 100%; /* Ensure images don't exceed the width of the slide */
-    max-height: 100%; /* Ensure images don't exceed the height of the slide */
+    width: 100%; /* Set width to 100% */
+    height: 300px; /* Set a fixed height for all images */
     object-fit: cover; /* Maintain aspect ratio while covering the entire slide */
 }
+
 
 
 .article-grid {
