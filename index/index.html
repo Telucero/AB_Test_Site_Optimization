@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="../style.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AB Testing Website Optimization</title>
+    <title>Taylor's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Include Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
     <header>
@@ -14,27 +15,30 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Publications</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <div class="container">
         <section>
-            <h2>Welcome to Our Website!</h2>
+            <h2>Welcome to my Website!</h2>
             <p>This is a sample section of the website. You can replace this with your own content.</p>
         </section>
         <section>
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
         </section>
-        <section>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Projects will be dynamically generated here -->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
         </section>
         <section>
             <h2>Contact Us</h2>
@@ -57,5 +61,8 @@
     <footer>
         <p>&copy; 2024 AB Testing Website Optimization. All rights reserved.</p>
     </footer>
+    <!-- Include Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
