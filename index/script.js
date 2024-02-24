@@ -10,17 +10,17 @@ var swiper = new Swiper('.swiper-container', {
 var projects = [
     {
         name: 'Project 1',
-        imageUrl: 'IMG_7030.jpeg',
+        imageUrl: 'IMG_0730.jpeg',
         githubUrl: 'https://github.com/user/project1'
     },
     {
         name: 'Project 2',
-        imageUrl: 'project2.jpg',
+        imageUrl: 'AM_prior_1.jpeg',
         githubUrl: 'https://github.com/user/project2'
     },
     {
         name: 'Project 3',
-        imageUrl: 'project3.jpg',
+        imageUrl: 'AM_prior_R1.jpeg',
         githubUrl: 'https://github.com/user/project3'
     }
     // Add more projects as needed
