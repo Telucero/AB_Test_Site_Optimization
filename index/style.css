@@ -95,3 +95,8 @@ footer {
     text-decoration: none;
     border-radius: 5px;
 }
+
+/* Add margin to the bottom of the section to prevent overlap with footer */
+section {
+    margin-bottom: 50px; /* Adjust this value as needed */
+}
