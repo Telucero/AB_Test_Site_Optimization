@@ -61,9 +61,19 @@ footer {
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.8); /* Adding shadow effect */
 }
 
+
 .swiper-container {
-    /* Remove fixed height */
-    height: auto;
+    position: relative;
+    z-index: 1; /* Lower z-index to keep it behind the footer */
+    overflow: hidden; /* Hide overflow to show only current image */
+}
+
+.swiper-slide {
+    display: none; /* Hide slides by default */
+}
+
+.swiper-slide-active {
+    display: block; /* Show only active slide */
 }
 
 .swiper-slide {
