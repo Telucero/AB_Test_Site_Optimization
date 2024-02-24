@@ -1,10 +1,12 @@
 // Initialize Swiper
 var swiper = new Swiper('.swiper-container', {
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+    slidesPerView: 1, // Display only one slide at a time
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     },
 });
+
 
 // Projects data
 var projects = [
