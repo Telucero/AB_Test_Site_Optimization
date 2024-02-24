@@ -10,7 +10,7 @@ var swiper = new Swiper('.swiper-container', {
 var projects = [
     {
         name: 'Project 1',
-        imageUrl: 'project1.jpg',
+        imageUrl: 'IMG_7030.jpeg',
         githubUrl: 'https://github.com/user/project1'
     },
     {
