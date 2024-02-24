@@ -68,7 +68,7 @@ footer {
 
 .swiper-container {
     position: relative;
-    z-index: -1; /* Lower z-index to keep it behind the footer */
+    z-index: 1; /* Lower z-index to keep it behind the footer */
     overflow: hidden; /* Hide overflow to show only current image */
 }
 
@@ -90,6 +90,7 @@ footer {
 .swiper-slide img {
     width: 100%; /* Set width to 100% */
     height: 300px; /* Set a fixed height for all images */
+    z-index: -1;
     object-fit: cover; /* Maintain aspect ratio while covering the entire slide */
 }
 
