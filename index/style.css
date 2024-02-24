@@ -64,7 +64,7 @@ footer {
 
 .swiper-container {
     position: relative;
-    z-index: 1; /* Lower z-index to keep it behind the footer */
+    z-index: -1; /* Lower z-index to keep it behind the footer */
     overflow: hidden; /* Hide overflow to show only current image */
 }
 
