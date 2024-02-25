@@ -1,4 +1,4 @@
-import { projects } from './projects.js';
+import { projects } from './project.js';
 
 // Initialize Swiper
 var swiper = new Swiper('.swiper-container', {
