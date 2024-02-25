@@ -1,3 +1,5 @@
+import { projects } from './projects.js';
+
 // Initialize Swiper
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1, // Display only one slide at a time
