@@ -34,7 +34,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Change color on hover */
+    color: #c0c0c0; /* Change color on hover */
 }
 
 .container {
@@ -137,5 +137,9 @@ section {
 }
 
 #contact {
-    margin-top: ;
+    margin-top: -45px ;
+}
+
+#Site_name{
+    color: #7D3C98;
 }
