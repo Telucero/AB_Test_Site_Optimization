@@ -8,7 +8,7 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
-var projects = [
+/*var projects = [
     {
         name: 'Project 1',
         description: 'Description for Project 1 goes here...',
@@ -28,7 +28,7 @@ var projects = [
         githubUrl: 'https://github.com/user/ETH_Analysis'
     }
     // Add more projects as needed
-];
+];*/
 var projectDescription = document.getElementById('project-description');
 
 // Function to update project description based on the active slide
